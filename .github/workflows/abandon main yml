@@ -1,3 +1,5 @@
+This is abandoned because it only generate a single badge for the whole pipeline. I will create a new four that generates badges for each job.
+
 name: CI Pipeline
 
 on:

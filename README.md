@@ -1,16 +1,7 @@
-Method 1
-![Install Dependencies](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/main.yml/badge.svg?branch=main&event=push&job=install)
-![Format Code](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/main.yml/badge.svg?branch=main&event=push&job=format)
-![Lint Code](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/main.yml/badge.svg?branch=main&event=push&job=lint)
-![Run Tests](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/main.yml/badge.svg?branch=main&event=push&job=test)
-
-Method 2
-<!--
 ![Install Dependencies](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/install.yml/badge.svg)
 ![Format Code](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/format.yml/badge.svg)
 ![Lint Code](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/lint.yml/badge.svg)
 ![Run Tests](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/test.yml/badge.svg)
--->
 
 # IDS-706 Data Engineering: Individual Project 1
 ## AAPL Price Statistics (2010-2021)
