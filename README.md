@@ -1,5 +1,12 @@
-# AAPL Price Statistics (2010-2021)
-This is a IDS-706 homework project that calculates the mean, median,and standard deviation of AAPL stock close prices from 2010 to 2021.
+![Install Dependencies](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/main.yml/badge.svg?branch=main&event=push&job=install)
+![Format Code](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/main.yml/badge.svg?branch=main&event=push&job=format)
+![Lint Code](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/main.yml/badge.svg?branch=main&event=push&job=lint)
+![Run Tests](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/main.yml/badge.svg?branch=main&event=push&job=test)
+
+
+# IDS-706 Data Engineering: Individual Project 1
+## AAPL Price Statistics (2010-2021)
+This is a IDS-706 individual project 1 that calculates the mean, median,and standard deviation of AAPL stock close prices from 2010 to 2021.
 
 ![Logo Nasdaq](Logo_Nasdaq.png)![Logo AAPL](Logo_AAPL.png)
 
