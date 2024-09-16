@@ -1,17 +1,20 @@
+# Makefile
+
+.PHONY: install test format lint all
+
 install:
-	pip install --upgrade pip &&\
+	pip install --upgrade pip && \
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=main --cov-report=term-missing test_*.py
+	pytest -vv --cov=your_module_name --cov-report=term-missing --nbval *.ipynb test_*.py
 
 format:
 	black *.py
+	nbqa black *.ipynb
 
 lint:
-	pylint --disable=R,C main.py
+	ruff check *.py
+	nbqa ruff *.ipynb
 
-# deploy:
-	# todo
-
-all: install lint test format deploy
+all: install format lint test
