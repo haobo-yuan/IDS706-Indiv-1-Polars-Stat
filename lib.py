@@ -7,11 +7,12 @@ def preprocess_data():
     stock_AAPL = stock.loc[stock["Name"] == "AAPL"].copy()  # Only use AAPL stock data
 
     # Extract "Year" info from "Date" Column
-    stock_AAPL.loc[:,'Date'] = pd.to_datetime(stock_AAPL.Date)
+    stock_AAPL.loc[:, "Date"] = pd.to_datetime(stock_AAPL.Date)
     stock_AAPL.set_index("Date", inplace=True)
-    stock_AAPL.loc[:,"Year"] = stock_AAPL.index.year  # Add a new column 'Year'
-    
+    stock_AAPL.loc[:, "Year"] = stock_AAPL.index.year  # Add a new column 'Year'
+
     return stock_AAPL
+
 
 # Plotting the statistics
 def generate_plot(yearly_stats):
