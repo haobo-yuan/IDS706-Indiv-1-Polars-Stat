@@ -67,4 +67,4 @@ The primary files in this project are:
 ## Demo Video
 Here is a demo video will show you a detailed explanation of continuous integration using GitHub Actions of Python data science project(individual project #1).
 
-[![Watch the video](https://img.youtube.com/vi/7JXqK_AVBDs/maxresdefault.jpg)](https://youtu.be/7JXqK_AVBDs)
+[![Watch the video](https://img.youtube.com/vi/yJRoMepMxO8/maxresdefault.jpg)](https://youtu.be/yJRoMepMxO8)
