@@ -7,7 +7,7 @@
 ## AAPL Price Statistics (2010-2021)
 This is a IDS-706 individual project 1 that calculates the mean, median,and standard deviation of AAPL stock close prices from 2010 to 2021.
 
-![Logo Nasdaq](Logo_Nasdaq.png)![Logo AAPL](Logo_AAPL.png)
+![Logo Nasdaq](pictures/Logo_Nasdaq.png)![Logo AAPL](pictures/Logo_AAPL.png)
 
 The data is from the everyday close price of <NASDAQ 100 Data From 2010> dataset on Kaggle.
 >https://www.kaggle.com/datasets/kalilurrahman/nasdaq100-stock-price-data/data 
@@ -29,7 +29,7 @@ The statistics are as follows:
 |   2021 | 134.344   | 132.42    |  9.86899  |## Description and Conclusion:
 
 
-![Plot](plot.png)
+![Plot](pictures/plot.png)
 
 ## Description and Conclusion:
 Apple Inc.'s stock performance from 2010 to 2021 shows significant growth, with the average
@@ -39,4 +39,32 @@ and its market leadership in innovation. While volatility increased in the later
 in 2020 with the standard deviation peaking at 21.81, Apple's overall performance was robust,
 reflecting its resilience and growth in the global tech industry.
 
-## Video of Project Introduction
+---
+
+## Projection Structure
+The primary files in this project are:
+```
+    IDS706-Indiv-1-Polars-Stat/
+    ├── data/
+    │   └── NASDAQ_100_Data_From_2010.csv
+    ├── pictures/
+    │   └── plot.png
+    ├── .github/workflows/
+    │   └── install.yml
+    │   └── format.yml
+    │   └── lint.yml
+    │   └── test.yml
+    ├── lib.py
+    ├── test_lib.py
+    ├── main.ipynb
+    ├── script.py
+    ├── test_script.py
+    ├── README.md
+    ├── requirements.txt
+    └── Makefile
+```
+
+## Demo Video
+Here is a demo video will show you a detailed explanation of continuous integration using GitHub Actions of Python data science project(individual project #1).
+
+[![Watch the video](https://img.youtube.com/vi/7JXqK_AVBDs/maxresdefault.jpg)](https://youtu.be/7JXqK_AVBDs)
